@@ -116,7 +116,7 @@ int main()
             }
         }
         printf("\nDo you want to play again \n\nType y for yes and type n for no\n");
-        scanf("%c", &answer);
+        scanf(" %c", &answer);
 
     } while (answer == 'y');
 
